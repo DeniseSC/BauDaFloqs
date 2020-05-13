@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url('./img/IMG_1908.png');
+    background-image: url('../img/IMG_1908.png');
     background-size: auto 100vh;
     font-family: arial;
   }
@@ -85,6 +85,6 @@ body {
     }
 
     .img-portfolio {
-      height: 400px;
-      width: 500px;
+      height: 300px;
+      width: 400px;
     }
