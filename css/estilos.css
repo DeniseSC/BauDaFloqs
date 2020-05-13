@@ -71,19 +71,6 @@ body {
       font-size: 4em;
     }
 
-    figcaption, .pt1, .pt2 {
-      color: whitesmoke;
-      font-style: italic;
-    }
-
-    .pt1 {
-      font-size: 3em;
-    }
-
-    .pt2 {
-      font-size: 30px;
-    }
-
     .img-portfolio {
       height: 300px;
       width: 400px;
