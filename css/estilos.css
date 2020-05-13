@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-image: url('../img/IMG_1908.png');
+    background-size: auto 100vh;
+    font-family: arial;
+  }
+
+  @media (min-width: 400px) { 
+    body {
+      font-size: 14px;
+    }
+  }
+
+  header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+  }
+
+
+  
+   .menu ul {
+      display: flex;
+      justify-content: space-evenly;
+    }
+    
+    .menu li {
+      font-style: italic;
+      list-style: none;
+    }
+    
+    .menu {
+      background-color: #ADD8E6;
+      position: fixed;
+      width: 100vw;
+      top: 0;
+    }
+
+    .menu a { 
+      display: block;
+      padding: 10px 20px; 
+    }
+
+  a {
+      Color: navy;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      Color: #BA55D3;
+      text-decoration: underline; 
+    }
+   
+    .subtitulo,
+    .titulo {
+      Color: whitesmoke;
+      Text-align: Center;
+    }
+    
+    .subtitulo {
+      font-style: italic;
+    }
+
+    .titulo {
+      font-size: 4em;
+    }
+
+    figcaption, .pt1, .pt2 {
+      color: whitesmoke;
+      font-style: italic;
+    }
+
+    .pt1 {
+      font-size: 3em;
+    }
+
+    .pt2 {
+      font-size: 30px;
+    }
+
+    .img-portfolio {
+      height: 500px;
+      width: 600px;
+    }
