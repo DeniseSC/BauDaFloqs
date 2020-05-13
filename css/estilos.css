@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url('../img/IMG_1908.png');
+    background-image: url('./img/IMG_1908.png');
     background-size: auto 100vh;
     font-family: arial;
   }
